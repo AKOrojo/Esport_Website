@@ -29,6 +29,9 @@ h6 {
 
 /* Navigation */
 nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -58,10 +61,74 @@ nav .navigation ul li a {
     color: rgb(21, 21, 100);
     font-size: 16px;
     font-weight: 500;
-    transition: 0.3s ease
+    transition: 0.3s ease;
 }
 
 nav .navigation ul li a:hover {
     color: rgb(228, 51, 54);
 }
 
+/* Home */
+
+#home {
+    background-image: linear-gradient(Orgba(9, 5, 54, 0.3), Urgba(5, 4, 46, 0.7)), url ("images/back. jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px
+}
+
+#home h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+
+#home p {
+    width: 50%;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#home .btn {
+    margin-top: 30px;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 680;
+    border-radius: 5px;
+
+#home a.blue {
+    color: #fff;
+    background: rgb(0, 154, 216);
+    transition: 0.3s ease;
+}
+
+#home a.blue:hover {
+    color: rgb(0, 154, 216);
+    background: #fff;
+}
+
+#home a.red {
+    color: #fff;
+    background: rgb(255, 198, 55);
+    transition: 0.3s ease;
+}
+
+#home a.red:hover {
+    color: rgb(255, 198, 55);
+    background: #fff;
+}
