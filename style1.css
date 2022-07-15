@@ -1,0 +1,26 @@
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright {
+    color: #fff;
+}
+
+footer .copyright .pro-links {
+    margin-top: 0px;
+  }
+
+footer .copyrighte .pro-links i {
+    background-color: #5f7185;
+    color: #fff;
+  }
+  
+footer .copyright .pro-links i:hover {
+    background-color: #FDC938;
+    color: #2c2c2c;
+  }
