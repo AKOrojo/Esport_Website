@@ -1,8 +1,5 @@
 #blog-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 8vw;
+  padding: 8vw 4vw;
 }
 
 #blog-container .blogs {
