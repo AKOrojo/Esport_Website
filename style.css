@@ -204,12 +204,12 @@ nav .navigation ul li a:hover {
   background-position: center;
 }
 
-#course .courses .details{
+#course .courses .details {
   padding: 15px 15px 0 15px;
 }
 
-#course .courses .details i{
-  color: #FDC93B;
+#course .courses .details i {
+  color: #fdc93b;
   font-size: 0.9rem;
 }
 
@@ -225,7 +225,6 @@ nav .navigation ul li a:hover {
   right: 15px;
   bottom: 100px;
 }
-
 
 /* About */
 
@@ -250,27 +249,27 @@ nav .navigation ul li a:hover {
   letter-spacing: 1px;
 }
 
-#about-container{
+#about-container {
   display: flex;
   align-items: center;
   padding: 8vw 8vw 2vw 8vw;
 }
 
-#about-container .about-img{
+#about-container .about-img {
   width: 60%;
 }
 
-#about-container .about-text{
+#about-container .about-text {
   width: 40%;
   padding: 60px;
 }
 
-#about-container .about-text h2{
-  color: #29303B;
+#about-container .about-text h2 {
+  color: #29303b;
   padding-bottom: 15px;
 }
 
-#about-container .about-text p{
-  color: #686F7A;
+#about-container .about-text p {
+  color: #62656b;
   font-weight: 300;
 }
