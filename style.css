@@ -450,7 +450,7 @@ nav .navigation ul li a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 8vw;
+  padding: 8vw 4vw;
 }
 
 #blog-container .blogs {
@@ -460,6 +460,10 @@ nav .navigation ul li a:hover {
 #blog-container .blogs img {
   width: 100%;
   border-radius: 19px;
+}
+
+#blog-container .blogs .post {
+  padding-bottom: 60px;
 }
 
 #blog-container .blogs .post h3 {
