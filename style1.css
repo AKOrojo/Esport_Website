@@ -1,37 +1,68 @@
-/* Experts */
+/* footer */
 
-#experts {
-   padding: 8vw 8vw 0 8vw; 
-   text-align: center;
-
+footer {
+    padding: 8vw;
+    background-color: #101C32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-#experts .expert-box {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   grid-gap: 1rem;
-   margin-top: 50px;
+footer .footer-col{
+    padding-bottom: 40px;
 }
 
-#experts .expert-box .profile{
-    background: #fafaf1;
-    padding: 30px 10px;
- }
+footer h3 {
+    color: rgb(241, 240 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
 
- #experts .expert-box .profile .pro-links{
-    margin-top: 10px;
- }
-
- #experts .expert-box .profile .pro-links i{
-    padding: 10px 13px;
-    border: 1px solid rgb(21, 21, 100);
+footer li {
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
     cursor: pointer;
-    transition: 0.3s ease;
- }
+}
 
- #experts .expert-box .profile .pro-links i:hover {
-    background: rgb(21, 21, 100);
+footer li:hover {
+    color: rgb(241, 240 245)
+}
+
+footer p { 
+    color: #7b838a
+}
+
+footer .subscribe{
+    margin-top: 20px;
+}
+
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334F6C;
+    border: none;
+    outline: none;
     color: #fff;
-    border: 1px solid rgb(21, 21, 100);
-    cursor: pointer;
- }
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 680;
+  }
+  
+  #footer .subscribe a.red {
+    color: #fff;
+    background: rgb(228, 51, 54);
+    transition: 0.3s ease;
+  }
+  
+  #footer .subscribe a.red:hover {
+    color: rgb(228, 51, 54);
+    background: #fff;
+  }
