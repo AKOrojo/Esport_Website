@@ -187,6 +187,7 @@ nav .navigation ul li a:hover {
   text-align: start;
   background: f9f9ff;
   height: 100%;
+  position: relative;
 }
 
 #course .course-box {
@@ -202,6 +203,29 @@ nav .navigation ul li a:hover {
   background-size: cover;
   background-position: center;
 }
+
+#course .courses .details{
+  padding: 15px 15px 0 15px;
+}
+
+#course .courses .details i{
+  color: #FDC93B;
+  font-size: 0.9rem;
+}
+
+#course .courses .cost {
+  background-color: rgb(74, 74, 136);
+  color: #fff;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 100px;
+}
+
 
 /* About */
 
