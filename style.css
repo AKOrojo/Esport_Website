@@ -625,18 +625,18 @@ footer .copyright .pro-links i:hover {
 /* Media */
 @media (max-width: 769px) {
   nav {
-      padding: 15px 20px;
+    padding: 15px 20px;
   }
 
   nav img {
-      width: 130px;
-      cursor: pointer;
+    width: 130px;
+    cursor: pointer;
   }
 
   #menu-btn {
     display: initial;
   }
-  
+
   #menu-close {
     display: initial;
     font-size: 1.6rem;
@@ -671,7 +671,7 @@ footer .copyright .pro-links i:hover {
   }
 
   nav .navigation ul li a {
-    color: #fff
+    color: #fff;
   }
 
   #home p {
@@ -708,7 +708,11 @@ footer .copyright .pro-links i:hover {
 
   footer .copyright .pro-links {
     margin-top: 20px;
+  }
 
+  /* Blog */
+  #blog-container {
+    padding: 8vw 4vw;
   }
 }
 
@@ -728,5 +732,19 @@ footer .copyright .pro-links i:hover {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  /* blog */
+
+  #blog-container {
+    flex-direction: column;
+  }
+
+  #blog-container .blogs {
+    width: 100%;
+  }
+
+  #blog-container .cate {
+    width: 100%;
   }
 }
