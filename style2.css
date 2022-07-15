@@ -52,18 +52,6 @@
 
 /* medai blogs css */
 
-#blog-container {
-  padding: 8vw 4vw;
-}
-
-#blog-container {
-  flex-direction: column;
-}
-
-#blog-container .blogs {
-  width: 100%;
-}
-
 #blog-container .cate {
   width: 100%;
 }
