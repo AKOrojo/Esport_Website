@@ -256,12 +256,13 @@ nav .navigation ul li a:hover {
 }
 
 #about-container .about-img {
-  width: 60%;
+  width: 50%;
+  padding-right: 20px;
 }
 
 #about-container .about-text {
-  width: 40%;
-  padding: 60px;
+  width: 50%;
+  padding: 10px;
 }
 
 #about-container .about-text h2 {
