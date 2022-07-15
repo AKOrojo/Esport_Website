@@ -465,6 +465,19 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 
+#about-container {
+  padding: 8vw 4vw 2vw 4vw;
+}
+
+#about-container .about-img {
+  padding-right: 30px;
+}
+
+#trust .trust-img img {
+  width: 50px;
+  height: auto;
+}
+
 /* About */
 
 #about-home {
@@ -625,18 +638,18 @@ footer .copyright .pro-links i:hover {
 /* Media */
 @media (max-width: 769px) {
   nav {
-      padding: 15px 20px;
+    padding: 15px 20px;
   }
 
   nav img {
-      width: 130px;
-      cursor: pointer;
+    width: 130px;
+    cursor: pointer;
   }
 
   #menu-btn {
     display: initial;
   }
-  
+
   #menu-close {
     display: initial;
     font-size: 1.6rem;
@@ -671,7 +684,7 @@ footer .copyright .pro-links i:hover {
   }
 
   nav .navigation ul li a {
-    color: #fff
+    color: #fff;
   }
 
   #home p {
@@ -708,7 +721,6 @@ footer .copyright .pro-links i:hover {
 
   footer .copyright .pro-links {
     margin-top: 20px;
-
   }
 }
 
@@ -729,4 +741,16 @@ footer .copyright .pro-links i:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+#about-container {
+  flex-direction: column-reverse;
+}
+#about-container .about-img {
+  width: 100%;
+  padding-right: 0px;
+}
+#about-container .about-text {
+  width: 100%;
+  padding-bottom: 20px;
 }
