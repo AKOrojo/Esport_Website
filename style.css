@@ -359,19 +359,19 @@ nav .navigation ul li a:hover {
 
 footer {
   padding: 8vw;
-  background-color: #101C32;
+  background-color: #101c32;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
-footer .footer-col{
+footer .footer-col {
   padding-bottom: 40px;
 }
 
 footer h3 {
-  color:#fff;
+  color: #fff;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -385,21 +385,21 @@ footer li {
 }
 
 footer li:hover {
-  color: rgb(241, 240 245)
+  color: rgb(241, 240 245);
 }
 
-footer p { 
-  color: #7b838a
+footer p {
+  color: #7b838a;
 }
 
-footer .subscribe{
+footer .subscribe {
   margin-top: 20px;
 }
 
-footer input{
+footer input {
   width: 220px;
   padding: 15px 12px;
-  background: #334F6C;
+  background: #334f6c;
   border: none;
   outline: none;
   color: #fff;
@@ -447,7 +447,7 @@ footer .copyrighte .pro-links i {
 }
 
 footer .copyright .pro-links i:hover {
-  background-color: rgb(228, 51, 54);;
+  background-color: rgb(228, 51, 54);
   color: #2c2c2c;
 }
 
@@ -596,4 +596,9 @@ footer .copyright .pro-links i:hover {
   color: #757373;
   font-weight: 500px;
   line-height: 45px;
+}
+
+#blog-container .blogpost {
+  width: 60%;
+  margin: 0 auto;
 }
