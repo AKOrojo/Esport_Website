@@ -268,3 +268,9 @@ nav .navigation ul li a:hover {
 #about-container .about-text h2{
   color: #29303B;
   padding-bottom: 15px;
+}
+
+#about-container .about-text p{
+  color: #686F7A;
+  font-weight: 300;
+}
