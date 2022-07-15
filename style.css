@@ -408,28 +408,28 @@ nav .navigation ul li a:hover {
 }
 
 /*About at Footer*/
-#about-container {
+/* #about-container {
   padding: 8vw 4vw 2vw 4vw;
 }
 
 #about-container .about-img {
   padding-right: 30px;
-}
+} */
 
-#trust .trust-img img {
+/* #trust .trust-img img {
   width: 50px;
   height: auto;
-}
+} */
 
 /*About at media*/
-#about-container {
+/* #about-container {
   flex-direction: column-reverse;
-}
-#about-container .about-img {
+} */
+/* #about-container .about-img {
   width: 100%;
   padding-right: 0px;
-}
-#about-container .about-text {
+} */
+/* #about-container .about-text {
   width: 100%;
   padding-bottom: 20px;
-}
+} */
