@@ -370,7 +370,7 @@ footer .footer-col{
 }
 
 footer h3 {
-  color: rgb(241, 240 245);
+  color:#fff;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -412,13 +412,13 @@ footer .subscribe a {
   font-weight: 680;
 }
 
-#footer .subscribe a.red {
+footer .subscribe a.red {
   color: #fff;
   background: rgb(228, 51, 54);
   transition: 0.3s ease;
 }
 
-#footer .subscribe a.red:hover {
+footer .subscribe a.red:hover {
   color: rgb(228, 51, 54);
   background: #fff;
 }
