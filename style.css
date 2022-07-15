@@ -638,7 +638,10 @@ footer .copyright .pro-links i:hover {
   }
   
   #menu-close {
-    display: none;
+    display: initial;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 30px 0 20px 20px;
   }
 
   nav .navigation ul {
@@ -659,6 +662,11 @@ footer .copyright .pro-links i:hover {
 
   nav .navigation ul li {
     padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+
+  nav .navigation ul li a {
+    color: #fff
   }
 }
 
