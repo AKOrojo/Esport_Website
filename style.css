@@ -14,11 +14,11 @@ body {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgb(229, 48, 51);
+  color: rgb(24, 24, 49);
 }
 
 p {
-  color: rgb(224, 3, 7);
+  color: rgb(49, 49, 99);
 }
 
 span {
@@ -160,20 +160,20 @@ nav .navigation ul li a:hover {
 
 #features .fea-box i {
   font-size: 2.3rem;
-  color: rgb(228, 51, 54);
+  color: rgb(24, 24, 49);
 }
 
 #features .fea-box h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: rgb(224, 3, 7);
+  color: rgb(24, 24, 49);
   padding: 13px 0 7px 0;
 }
 
 #features .fea-box p {
   font-size: 1rem;
   font-weight: 400;
-  color: rgb(228, 51, 54);
+  color: rgb(49, 49, 99);
 }
 
 /* Course */
