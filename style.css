@@ -638,6 +638,9 @@ footer .copyright .pro-links i:hover {
 /* Contact */
 #contact {
   padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 #contact .getin {
   width: 350px;
