@@ -763,6 +763,16 @@ footer .copyright .pro-links i:hover {
   color: #fff;
 }
 
+#map {
+  width: 100%;
+  height: 70vh;
+}
+
+#map iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Media */
 @media (max-width: 769px) {
   nav {
