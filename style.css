@@ -771,7 +771,10 @@ footer .copyright .pro-links i:hover {
 #map iframe {
   width: 100%;
   height: 100%;
+  margin-bottom: 8vw;
 }
+
+/* #TODO abeg someone help me embed my map properly in contact.html ABEG */
 
 /* Media */
 @media (max-width: 769px) {
