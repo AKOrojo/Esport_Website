@@ -654,7 +654,7 @@ footer .copyright .pro-links i:hover {
   margin-bottom: 16px;
 }
 #contact .getin p {
-  color: #790e0e;
+  color: #282626;
   line-height: 24px;
   margin-bottom: 33px;
   padding-bottom: 25px;
@@ -693,16 +693,41 @@ footer .copyright .pro-links i:hover {
 
 #contact .form {
   width: 60%;
-  background-color: #e49c9c;
+  background-color: #e7e8e8;
   padding: 40px;
   border-radius: 10px;
 }
 
 #contact .form h4 {
   font-size: 24px;
-  color: mediumturquoise;
+  color: #069ad8;
   line-height: 30px;
   margin-bottom: 8px;
+}
+
+#contact .form p {
+  color: #790e0e;
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+
+#contact .form .form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#contact .form .form-row input {
+  width: 48%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background: #ffffff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
 }
 
 /* Media */
