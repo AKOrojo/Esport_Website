@@ -700,7 +700,7 @@ footer .copyright .pro-links i:hover {
 
 #contact .form h4 {
   font-size: 24px;
-  color: #069ad8;
+  color: #e43336;
   line-height: 30px;
   margin-bottom: 8px;
 }
@@ -712,6 +712,12 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .form .form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#contact .form .form-col {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -735,6 +741,7 @@ footer .copyright .pro-links i:hover {
   width: 108%;
   font-size: 14px;
   font-weight: 400;
+  font-family: monospace;
   border-radius: 3px;
   border: none;
   background: #ffffff;
@@ -747,10 +754,13 @@ footer .copyright .pro-links i:hover {
 #contact .form button {
   font-size: 0.9rem;
   padding: 13px 25px;
-  background: rgb(21, 21, 100);
+  background: #e43336;
   border-radius: 5px;
   outline: none;
   border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
 }
 
 /* Media */
