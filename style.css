@@ -647,14 +647,14 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin h2 {
-  color: #2c234d;
+  color: #400808;
   font-size: 30px;
   font-weight: 800;
   line-height: 0.8;
   margin-bottom: 16px;
 }
 #contact .getin p {
-  color: #686875;
+  color: #790e0e;
   line-height: 24px;
   margin-bottom: 33px;
   padding-bottom: 25px;
@@ -662,7 +662,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin h3 {
-  color: #2c234d;
+  color: #5a0c0c;
   font-size: 15px;
   font-weight: 600;
   line-height: 26px;
@@ -676,7 +676,7 @@ footer .copyright .pro-links i:hover {
 #contact .getin .getin-details div .get {
   font-size: 16px;
   line-height: 22px;
-  color: #5838fc;
+  color: #e43336;
   margin-right: 20px;
 }
 
@@ -689,6 +689,20 @@ footer .copyright .pro-links i:hover {
 
 #contact .getin .getin-details .pro-links i {
   margin-right: 6px;
+}
+
+#contact .form {
+  width: 60%;
+  background-color: #e49c9c;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contact .form h4 {
+  font-size: 24px;
+  color: mediumturquoise;
+  line-height: 30px;
+  margin-bottom: 8px;
 }
 
 /* Media */
