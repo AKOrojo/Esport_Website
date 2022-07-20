@@ -465,6 +465,19 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 
+#about-container {
+  padding: 8vw 4vw 2vw 4vw;
+}
+
+#about-container .about-img {
+  padding-right: 30px;
+}
+
+#trust .trust-img img {
+  width: 50px;
+  height: auto;
+}
+
 /* About */
 
 #about-home {
@@ -622,6 +635,149 @@ footer .copyright .pro-links i:hover {
   padding-bottom: 60px !important;
 }
 
+/* Contact */
+#contact {
+  padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#contact .getin {
+  width: 350px;
+}
+
+#contact .getin h2 {
+  color: #400808;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0.8;
+  margin-bottom: 16px;
+}
+#contact .getin p {
+  color: #282626;
+  line-height: 24px;
+  margin-top: 7px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e4ed;
+}
+
+#contact .getin h3 {
+  color: #5a0c0c;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-details div {
+  display: flex;
+}
+
+#contact .getin .getin-details div .get {
+  font-size: 16px;
+  line-height: 22px;
+  color: #e43336;
+  margin-right: 20px;
+}
+
+#contact .getin .getin-details div p {
+  font-size: 14px;
+  border-bottom: none;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-details .pro-links i {
+  margin-right: 6px;
+}
+
+#contact .form {
+  width: 60%;
+  background-color: #e7e8e8;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contact .form h4 {
+  font-size: 24px;
+  color: #e43336;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+#contact .form p {
+  color: #240101;
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+
+#contact .form .form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#contact .form .form-col {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#contact .form .form-row input {
+  width: 48%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background: #ffffff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+  width: 108%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: monospace;
+  border-radius: 3px;
+  border: none;
+  background: #ffffff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+#contact .form button {
+  font-size: 0.9rem;
+  padding: 13px 25px;
+  background: #e43336;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+
+#map {
+  width: 100%;
+  height: 70vh;
+}
+
+#map iframe {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8vw;
+}
+
+/* #TODO abeg someone help me embed my map properly in contact.html ABEG */
+
 /* Media */
 @media (max-width: 769px) {
   nav {
@@ -708,11 +864,14 @@ footer .copyright .pro-links i:hover {
 
   footer .copyright .pro-links {
     margin-top: 20px;
+<<<<<<< HEAD
   }
 
   /* Blog */
   #blog-container {
     padding: 8vw 4vw;
+=======
+>>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
 
@@ -733,6 +892,7 @@ footer .copyright .pro-links i:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
 
   /* blog */
 
@@ -746,5 +906,29 @@ footer .copyright .pro-links i:hover {
 
   #blog-container .cate {
     width: 100%;
+=======
+  #about-container {
+    flex-direction: column-reverse;
+  }
+  #about-container .about-img {
+    width: 100%;
+    padding-right: 0px;
+  }
+  #about-container .about-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #trust .trust-img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #trust .trust-img .img {
+    width: 60px;
+    margin: 10px 15px;
+    height: auto;
+>>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
