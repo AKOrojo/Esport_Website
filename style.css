@@ -656,6 +656,7 @@ footer .copyright .pro-links i:hover {
 #contact .getin p {
   color: #282626;
   line-height: 24px;
+  margin-top: 7px;
   margin-bottom: 33px;
   padding-bottom: 25px;
   border-bottom: 1px solid #e5e4ed;
@@ -666,6 +667,7 @@ footer .copyright .pro-links i:hover {
   font-size: 15px;
   font-weight: 600;
   line-height: 26px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
