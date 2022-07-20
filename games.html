@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     ></script>
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -21,69 +27,17 @@
       <img src="images/logo.svg" alt="" />
       <div class="navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
+          <li><a class="active" href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="games.html">Games</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <img id="menu-btn" src="images/menu.png" alt="" />
       </div>
     </nav>
 
-    <!-- Home -->
-
-    <section id="blog-home">
-      <h2>Blog</h2>
-    </section>
-
-    <section id="blog-container">
-      <div class="blogs">
-        <div class="post">
-          <img src="images/b1.jpg" alt="" />
-          <h3>PlayStation continues Esports expansion with Repeat.gg acquisition</h3>
-          <p>PlayStation is continuing to ramp up its investment in Esports with the acquisition of technology platform Repeat.gg....</p>
-          <a href="post.html"> Read More</a>
-        </div>
-        <div class="post">
-          <img src="images/b2.jpg" alt="" />
-          <h3>Games</h3>
-          <p>
-            We have a large variety of games, click <i>Read More</i> to learn
-            more for more information...
-          </p>
-          <a href="post1.html"> Read More</a>
-        </div>
-        <div class="post">
-          <img src="images/b3.jpg" alt="" />
-          <h3>History</h3>
-          <p>Learn our history, and how we built this creative community...</p>
-          <a href="post2.html"> Read More</a>
-        </div>
-        <div class="post">
-          <img src="images/b4.jpg" alt="" />
-          <h3>FPS</h3>
-          <p>Enjoy our first person gaming experience (FPS)...</p>
-          <a href="post3.html"> Read More</a>
-        </div>
-      </div>
-
-      <div class="cate">
-        <h2>Categories</h2>
-        <hr />
-        <a href="#">History</a>
-        <hr />
-        <a href="#">Game Sense</a>
-        <hr />
-        <a href="#">FPS</a>
-        <hr />
-        <a href="#">Games</a>
-        <hr />
-        <a href="#">Python programming</a>
-        <hr />
-        <a href="#">JavScript Hack</a>
-        <hr />
-      </div>
-    </section>
 
     <!-- Footer -->
 
@@ -131,5 +85,15 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
   </body>
 </html>
