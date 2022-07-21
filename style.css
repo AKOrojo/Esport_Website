@@ -675,11 +675,28 @@ footer .copyright .pro-links i:hover {
   display: flex;
 }
 
-#contact .getin .getin-details div .get {
+#contact .getin .getin-details div .fa-house {
   font-size: 16px;
   line-height: 22px;
   color: #e43336;
   margin-right: 20px;
+  margin-top: 9px;
+}
+
+#contact .getin .getin-details div .fa-phone {
+  font-size: 16px;
+  line-height: 22px;
+  color: #e43336;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+
+#contact .getin .getin-details div .fa-envelope {
+  font-size: 16px;
+  line-height: 22px;
+  color: #e43336;
+  margin-right: 20px;
+  margin-top: 8px;
 }
 
 #contact .getin .getin-details div p {
@@ -690,7 +707,18 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin .getin-details .pro-links i {
-  margin-right: 6px;
+  margin-right: 8px;
+  padding: 10px 13px;
+  color: rgb(228, 51, 54);;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#contact .getin .getin-details .pro-links i:hover {
+  background-color: rgb(228, 51, 54);
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 #contact .form {
@@ -775,8 +803,6 @@ footer .copyright .pro-links i:hover {
   height: 100%;
   margin-bottom: 8vw;
 }
-
-/* #TODO abeg someone help me embed my map properly in contact.html ABEG */
 
 /* Media */
 @media (max-width: 769px) {
@@ -864,14 +890,11 @@ footer .copyright .pro-links i:hover {
 
   footer .copyright .pro-links {
     margin-top: 20px;
-<<<<<<< HEAD
   }
 
   /* Blog */
   #blog-container {
     padding: 8vw 4vw;
-=======
->>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
 
@@ -892,7 +915,6 @@ footer .copyright .pro-links i:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-<<<<<<< HEAD
 
   /* blog */
 
@@ -906,29 +928,5 @@ footer .copyright .pro-links i:hover {
 
   #blog-container .cate {
     width: 100%;
-=======
-  #about-container {
-    flex-direction: column-reverse;
-  }
-  #about-container .about-img {
-    width: 100%;
-    padding-right: 0px;
-  }
-  #about-container .about-text {
-    width: 100%;
-    padding-bottom: 20px;
-  }
-  #trust .trust-img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  #trust .trust-img .img {
-    width: 60px;
-    margin: 10px 15px;
-    height: auto;
->>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
