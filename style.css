@@ -864,6 +864,14 @@ footer .copyright .pro-links i:hover {
 
   footer .copyright .pro-links {
     margin-top: 20px;
+<<<<<<< HEAD
+  }
+
+  /* Blog */
+  #blog-container {
+    padding: 8vw 4vw;
+=======
+>>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
 
@@ -884,6 +892,21 @@ footer .copyright .pro-links i:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
+
+  /* blog */
+
+  #blog-container {
+    flex-direction: column;
+  }
+
+  #blog-container .blogs {
+    width: 100%;
+  }
+
+  #blog-container .cate {
+    width: 100%;
+=======
   #about-container {
     flex-direction: column-reverse;
   }
@@ -906,5 +929,6 @@ footer .copyright .pro-links i:hover {
     width: 60px;
     margin: 10px 15px;
     height: auto;
+>>>>>>> 78c2dce1be29b8db177c86f37bd52f90a9eea0f2
   }
 }
