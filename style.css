@@ -673,6 +673,15 @@ footer .copyright .pro-links i:hover {
   border-bottom: 1px solid #e5e4ed;
 }
 
+#contact .getin a {
+  color: #0e0eef;
+  line-height: 24px;
+  margin-top: 7px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e4ed;
+}
+
 #contact .getin h3 {
   color: #5a0c0c;
   font-size: 15px;
@@ -720,7 +729,7 @@ footer .copyright .pro-links i:hover {
 #contact .getin .getin-details .pro-links i {
   margin-right: 8px;
   padding: 10px 13px;
-  color: rgb(228, 51, 54);;
+  color: rgb(228, 51, 54);
   border: 1px solid rgb(0, 0, 0);
   cursor: pointer;
   transition: 0.3s ease;
