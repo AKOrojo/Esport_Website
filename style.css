@@ -784,7 +784,7 @@ footer .copyright .pro-links i:hover {
   font-weight: 400;
   border-radius: 3px;
   border: none;
-  background: #ffffff;
+  background: #fff;
   color: #7e7c87;
   outline: none;
   padding: 20px 30px;
@@ -796,26 +796,30 @@ footer .copyright .pro-links i:hover {
   width: 108%;
   font-size: 14px;
   font-weight: 400;
-  font-family: monospace;
   border-radius: 3px;
   border: none;
-  background: #ffffff;
+  background: #fff;
   color: #7e7c87;
   outline: none;
   padding: 20px 30px;
   margin-bottom: 20px;
 }
 
-#contact .form button {
+#contact .form .red {
+  text-decoration: none;
   font-size: 0.9rem;
-  padding: 13px 25px;
-  background: #e43336;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 680;
   border-radius: 5px;
-  outline: none;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
   color: #fff;
+  background: rgb(228, 51, 54);
+  transition: 0.3s ease;
+}
+
+#contact .form a.red:hover {
+  color: rgb(228, 51, 54);
+  background: #fff;
 }
 
 #map {
