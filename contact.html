@@ -101,8 +101,13 @@
           ></textarea>
         </div>
         <div class="form-col">
-           <a class="red" href="message_sent.html">Send Message</a>
+           <a onclick="messageSent()" class="red">Send Message</a>
           </div>
+          <script>
+            function messageSent() {
+              alert("Your message has been sent successfully. Please continue to enjoy our site!");
+            }
+          </script>
         </div>
       </div>
       </div>
