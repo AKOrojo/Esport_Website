@@ -381,7 +381,7 @@ footer {
   flex-wrap: wrap;
 }
 
-footer a{
+footer a {
   text-decoration: none;
 }
 
@@ -852,11 +852,11 @@ footer .copyright .pro-links i:hover {
   margin-top: 40px;
 }
 
-#game-inner .overview{
+#game-inner .overview {
   width: 70%;
 }
 
-#game-inner .overview .course-img{
+#game-inner .overview .course-img {
   width: 100%;
   height: 60vh;
   object-fit: cover;
@@ -864,27 +864,26 @@ footer .copyright .pro-links i:hover {
   margin-bottom: 20px;
 }
 
-#game-inner .overview .course-head{
+#game-inner .overview .course-head {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
 }
 
-#game-inner .overview .course-head .c-name{
+#game-inner .overview .course-head .c-name {
   width: 70%;
 }
 
-#game-inner .overview .course-head .c-name h2{
+#game-inner .overview .course-head .c-name h2 {
   color: #29303b;
 }
 
-#game-inner .overview .course-head .c-name .star{
+#game-inner .overview .course-head .c-name .star {
   margin: 6px 0;
 }
 
-#game-inner .overview .course-head .c-name .star i{
-  color: #FDC93B;
+#game-inner .overview .course-head .c-name .star i {
+  color: #fdc93b;
   font-size: 0.9rem;
 }
 
@@ -892,7 +891,7 @@ footer .copyright .pro-links i:hover {
   font-size: 15px;
 }
 
-#game-inner .overview .course-head span{
+#game-inner .overview .course-head span {
   padding: 16px 22px;
   border-radius: 5px;
   color: #5838fc;
@@ -901,7 +900,7 @@ footer .copyright .pro-links i:hover {
   background-color: rgba(88, 56, 252, 0.1);
 }
 
-#game-inner .learn p{
+#game-inner .learn p {
   font-size: 18px;
   padding-bottom: 15px;
 }
@@ -916,14 +915,14 @@ footer .copyright .pro-links i:hover {
   display: flex;
 }
 
-#game-inner .tutor img{
+#game-inner .tutor img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   margin-right: 20px;
 }
 
-#game-inner .tutor h5{
+#game-inner .tutor h5 {
   font-size: 15px;
 }
 
@@ -934,7 +933,7 @@ footer .copyright .pro-links i:hover {
   box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
 }
 
-#game-inner .enroll h3{
+#game-inner .enroll h3 {
   font-size: 1.6rem;
   padding-bottom: 10px;
   text-align: center;
@@ -961,9 +960,9 @@ footer .copyright .pro-links i:hover {
   text-align: center;
 }
 
-#game-inner .enroll .enroll-btn a{
+#game-inner .enroll .enroll-btn a {
   text-decoration: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 13px 45px;
   border-radius: 5px;
   font-weight: 600;
@@ -975,7 +974,6 @@ footer .copyright .pro-links i:hover {
   color: #fff;
   background: rgb(228, 51, 54);
   transition: 0.3s ease;
- 
 }
 
 /* Media */
@@ -1090,18 +1088,17 @@ footer .copyright .pro-links i:hover {
   }
 
   #game-inner .overview {
-    width:100%
+    width: 100%;
   }
 
   #game-inner .overview .course-img {
-    width:100%;
+    width: 100%;
     height: 100%;
   }
 
   #game-inner .enroll {
     margin-top: 2;
   }
-
 }
 
 @media (max-width: 475px) {
@@ -1149,6 +1146,15 @@ footer .copyright .pro-links i:hover {
     margin-bottom: 30px;
   }
 
+  TODO BUG 
+  /* BANNY PLEASE CHANGE THE COLOR OF THE BUTTON */
+  #contact .form {
+    color: #5a0c0c;
+    display: block;
+    width: 100px;
+    height: 20px;
+  }
+
   #contact .form {
     width: 100%;
     background: #f7f6fa;
@@ -1167,10 +1173,10 @@ footer .copyright .pro-links i:hover {
   }
 
   #game-inner .overview .course-head .c-name {
-    width:50%;
+    width: 50%;
   }
 
-  #game-inner .overview .course-head .c-name h2{
+  #game-inner .overview .course-head .c-name h2 {
     font-size: 22px;
   }
 
