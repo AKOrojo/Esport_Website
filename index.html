@@ -230,8 +230,15 @@
         <input type="text" placeholder="Email Address" name="" id="" />
         <input type="text" placeholder="Phone Number" name="" id="" />
         <div class="btn">
-          <a class="red" href="signed_up.html">Submit Form</a>
+          <a onclick="messageSent()" class="red">Submit Form</a>
         </div>
+        <script>
+          function messageSent() {
+            alert(
+              "Your message has been sent successfully. Please continue to enjoy our site!"
+            );
+          }
+        </script>
       </div>
 
       <script src="app.js"></script>
